@@ -14,7 +14,7 @@ const HomeScreen = () => {
   }, []);
   return (
     <>
-      <h1 className="text-3xl pl-5 font-bold">Latest Books</h1>
+      <h1 className="text-3xl pl-5 font-bold mt-2">Latest Books</h1>
 
       {loading ? (
         <Loader />

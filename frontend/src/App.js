@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import HomeScreen from "./screens/HomeScreen";
 import LoginScreen from "./screens/LoginScreen";
 import RegisterScreen from "./screens/RegisterScreen";
+import ProductScreen from "./screens/ProductScreen";
 function App() {
   return (
     <BrowserRouter>
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<HomeScreen />}></Route>
           <Route path='/login' element={<LoginScreen/>}/>
           <Route path="/register" element={<RegisterScreen/>}/>
+          <Route path="/product/:id" element={<ProductScreen/>}/>
         </Routes>
       </div>
     </BrowserRouter>
