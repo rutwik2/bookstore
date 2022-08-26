@@ -60,7 +60,7 @@ const LoginScreen = () => {
           />
           <br />
           <br />
-          <button type="submit" className="bg-red-600 py-2 px-5 mb-2 font-bold rounded-md">Login</button>
+          <button type="submit"  className="bg-red-600 py-2 px-5 mb-2 font-bold rounded-md">Login</button>
         </form>
         <a className="py-5 mb-2" href="/register">New here? Click to Register</a>
       </div>

@@ -23,7 +23,7 @@ const Header = () => {
         Book<span className="text-red-600">Store</span>
       </header></a>
       <div className="flex py-5 pr-8 items-center">
-        <a href="#" className="flex text-xl pr-8 text-white font-bold">
+        <a href="/cart" className="flex text-xl pr-8 text-white font-bold">
           <HiShoppingCart style={{ fontSize: "30px" }} />
           Cart
         </a>
